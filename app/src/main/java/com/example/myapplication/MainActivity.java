@@ -25,13 +25,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void suma(View vista){
-        String n1 = num1.getText().toString();
-        String n2 = num2.getText().toString();
-        int num1 = Integer.parseInt(n1);
-        int num2 = Integer.parseInt(n2);
-        int suma = num1 + num2;
+
+        int n1 = Integer.parseInt(num1.getText().toString());
+        int n2 = Integer.parseInt(num2.getText().toString());
+        int suma = n1 + n2;
         String total = String.valueOf(suma);
         resultado.setText(total);
+
+
+        Toast.makeText(this,"El resultado: "+total,Toast.LENGTH_LONG).show();
         Toast.makeText(this,"El resultado: "+total,Toast.LENGTH_LONG).show();
 
     }
