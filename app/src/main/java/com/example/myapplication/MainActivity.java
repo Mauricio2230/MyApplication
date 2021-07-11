@@ -34,7 +34,9 @@ public class MainActivity extends AppCompatActivity {
 
 
         Toast.makeText(this,"El resultado: "+total,Toast.LENGTH_LONG).show();
-        Toast.makeText(this,"El resultado: "+total,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"El resultado2: "+total,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"El resultado3: "+total,Toast.LENGTH_LONG).show();
+        Toast.makeText(this,"El resultado4: "+total,Toast.LENGTH_LONG).show();
 
 
 
